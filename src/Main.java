@@ -27,6 +27,7 @@ public class Main {
                 // 혹은 이렇게도 처리 가능하다
                 // StringBuilder sb = new StringBuilder();
                 // sb.append(data).append('\n');
+                // System.out.println(sb);
             }
         }
 
