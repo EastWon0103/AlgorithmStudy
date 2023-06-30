@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0df4bed5-1105-44e1-b059-381a46321875" name="Changes" comment="solve: Stack">
-      <change afterPath="$PROJECT_DIR$/src/basic/BalanceWorld.java" afterDir="false" />
+    <list default="true" id="0df4bed5-1105-44e1-b059-381a46321875" name="Changes" comment="solve: BalanceWorld">
+      <change afterPath="$PROJECT_DIR$/src/basic/OrderAge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +55,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.OrderAge">
     <configuration name="BalanceWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basic.BalanceWorld" />
       <module name="AlgorithmStudy" />
@@ -69,8 +69,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OrderAge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic.OrderAge" />
+      <module name="AlgorithmStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OrderAge" />
         <item itemvalue="Application.BalanceWorld" />
       </list>
     </recent_temporary>
@@ -85,7 +99,7 @@
       <updated>1687719792586</updated>
       <workItem from="1687719793621" duration="862000" />
       <workItem from="1687720715407" duration="7231000" />
-      <workItem from="1687985559114" duration="3032000" />
+      <workItem from="1687985559114" duration="5786000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1687719956269</created>
@@ -126,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1687793326611</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="solve: BalanceWorld">
+      <option name="closed" value="true" />
+      <created>1687988694446</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1687988694446</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,27 +160,7 @@
     <MESSAGE value="solve: acm hotel" />
     <MESSAGE value="solve: Factorial Zero" />
     <MESSAGE value="solve: Stack" />
-    <option name="LAST_COMMIT_MESSAGE" value="solve: Stack" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/basic/BalanceWorld.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/basic/BalanceWorld.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/basic/BalanceWorld.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="solve: BalanceWorld" />
+    <option name="LAST_COMMIT_MESSAGE" value="solve: BalanceWorld" />
   </component>
 </project>
