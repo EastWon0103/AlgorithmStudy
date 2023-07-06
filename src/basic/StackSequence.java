@@ -5,7 +5,11 @@ import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
-
+/**
+ * 플랫폼: 백준
+ * 이름: 스택 수열 (1874)
+ * 분류: 자료구조, 스택
+ */
 public class StackSequence {
     public void solution() throws Exception{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
