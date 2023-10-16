@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0df4bed5-1105-44e1-b059-381a46321875" name="Changes" comment="solve: Minecraft">
-      <change afterPath="$PROJECT_DIR$/src/greedy/CoinZero.java" afterDir="false" />
+    <list default="true" id="0df4bed5-1105-44e1-b059-381a46321875" name="Changes" comment="solve: CoinZero">
+      <change afterPath="$PROJECT_DIR$/src/dynamic/Fibo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/Cabbage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/ConnectedNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/DFSExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/DfsAndBfs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/TwoXNTile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/implement/RecommendPeople.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/implement/TestLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +34,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2Ri4uqCG5zmYsn3wyDWURSrOd4i" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -60,13 +72,13 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CoinZero">
-    <configuration name="CoinZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greedy.CoinZero" />
+  <component name="RunManager" selected="Application.implement.TestLogic">
+    <configuration name="GuessString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="implement.GuessString" />
       <module name="AlgorithmStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="greedy.*" />
+          <option name="PATTERN" value="implement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,8 +86,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Josephus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.Josephus" />
+    <configuration name="RecommendPeople" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="implement.RecommendPeople" />
+      <module name="AlgorithmStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="implement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLogic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic.TestLogic" />
       <module name="AlgorithmStudy" />
       <extension name="coverage">
         <pattern>
@@ -87,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Minecraft" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.Minecraft" />
+    <configuration name="Watch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="implement.Watch" />
       <module name="AlgorithmStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic.*" />
+          <option name="PATTERN" value="implement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,25 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.StackSequence" />
+    <configuration name="implement.TestLogic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="implement.TestLogic" />
       <module name="AlgorithmStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Statistics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.Statistics" />
-      <module name="AlgorithmStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basic.*" />
+          <option name="PATTERN" value="implement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CoinZero" />
-        <item itemvalue="Application.Minecraft" />
-        <item itemvalue="Application.StackSequence" />
-        <item itemvalue="Application.Statistics" />
-        <item itemvalue="Application.Josephus" />
+        <item itemvalue="Application.implement.TestLogic" />
+        <item itemvalue="Application.RecommendPeople" />
+        <item itemvalue="Application.GuessString" />
+        <item itemvalue="Application.Watch" />
+        <item itemvalue="Application.TestLogic" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +160,16 @@
       <workItem from="1687720715407" duration="7231000" />
       <workItem from="1687985559114" duration="13284000" />
       <workItem from="1688314271631" duration="4032000" />
-      <workItem from="1688620413474" duration="11168000" />
+      <workItem from="1688620413474" duration="14982000" />
+      <workItem from="1689570605967" duration="2712000" />
+      <workItem from="1689661947299" duration="149000" />
+      <workItem from="1689662142947" duration="3654000" />
+      <workItem from="1689672883328" duration="5287000" />
+      <workItem from="1696953711979" duration="20121000" />
+      <workItem from="1697248955916" duration="2316000" />
+      <workItem from="1697280426871" duration="7454000" />
+      <workItem from="1697324064894" duration="1832000" />
+      <workItem from="1697391671496" duration="8000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1687719956269</created>
@@ -245,7 +266,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688645035548</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="solve: CoinZero">
+      <option name="closed" value="true" />
+      <created>1688714228813</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1688714228813</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,7 +304,8 @@
     <MESSAGE value="solve: Statistics" />
     <MESSAGE value="solve: StackSequence" />
     <MESSAGE value="solve: Minecraft" />
-    <option name="LAST_COMMIT_MESSAGE" value="solve: Minecraft" />
+    <MESSAGE value="solve: CoinZero" />
+    <option name="LAST_COMMIT_MESSAGE" value="solve: CoinZero" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -284,6 +314,31 @@
           <url>file://$PROJECT_DIR$/src/basic/Minecraft.java</url>
           <line>11</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/graph/ConnectedNum.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/implement/RecommendPeople.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/implement/RecommendPeople.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/implement/RecommendPeople.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/implement/RecommendPeople.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
