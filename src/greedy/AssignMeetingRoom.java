@@ -21,8 +21,10 @@ public class AssignMeetingRoom {
             meetingRooms[i][1] = Integer.parseInt(st.nextToken());
         }
 
+        // Priority Queue도 괜찮을 것 같다
         Arrays.sort(meetingRooms, (o1, o2) -> {
             if(o2[1] == o1[1]) {
+                // 종료시간이 같으면 제일 먼저 시작하는 것을 앞으로 두어야 한다.
                 return o1[0] - o2[0];
             }
             return o1[1]-o2[1];
