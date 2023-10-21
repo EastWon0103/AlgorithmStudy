@@ -9,8 +9,6 @@ import java.util.Deque;
  * 플랫폼: 백준
  * 이름: AC (5430)
  */
-
-// 아직 안품
 public class ACLanguage {
     private static void deleteOperation(Deque<Integer> deque, boolean isReverse) {
         if(!isReverse) {
@@ -21,6 +19,10 @@ public class ACLanguage {
         deque.pollLast();
     }
     private static String convertDequeToString(Deque<Integer> deque, boolean isReverse) {
+        if(deque.isEmpty()) {
+            return "[]";
+        }
+
         StringBuilder sb = new StringBuilder();
 
         sb.append("[");
